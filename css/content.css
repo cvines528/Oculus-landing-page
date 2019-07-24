@@ -1,0 +1,91 @@
+.content .container{
+    float: left;
+    position: relative;
+    top: 228px;
+    width: 800px;
+    height: 400px;
+}
+.content .container .info{
+    width: 100%;
+    color: white;
+}
+.content .container .info h1{
+    font-size: 4.5rem;
+    font-weight: 700;
+    opacity: .9;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+.content .container .info h3{
+    font-size: 2rem;
+    font-weight: 700;
+    opacity: .9;
+    padding-bottom: 70px;
+    text-transform: uppercase;
+}
+.content .container .info .buttons .buy-btn{
+  padding: 12px 20px; 
+  color: white; 
+  font-weight: 700;
+  background: #1574D4;
+  border: 1px solid #1574D4;
+  -webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+margin-right: 20px;
+}
+.content .container .info .buttons .watch-video{
+    background: none;
+    color: white;
+    font-weight: 700;
+    border: 1px solid white;
+  padding: 12px 20px;  
+  -webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+footer {
+    position: absolute;
+    bottom: -27px;
+    width: 100%;
+    background: #3b205d; /* Old browsers */
+background: -moz-linear-gradient(left, #3b205d 0%, #3d3085 37%, #1574d4 71%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #3b205d 0%,#3d3085 37%,#1574d4 71%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #3b205d 0%,#3d3085 37%,#1574d4 71%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+footer .container{
+    
+    float: left;
+    padding: 0 0 50px 25px;
+    color: white;
+}
+footer .container .arrows{
+    float: left;
+    font-size: 2rem;
+    width: 50px;
+    margin: 20px 70px 0 20px;
+    color: white;
+
+}
+footer .container .arrows .left-arrow{
+    float: left;
+    margin-right: 25px;
+    color: #1574D4;
+}
+
+footer .container .footer-info{
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 300px;
+}
+footer .container .footer-info p{
+    float: left;
+    margin-right: 75px;
+}
+footer::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

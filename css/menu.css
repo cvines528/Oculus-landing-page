@@ -1,0 +1,38 @@
+header{
+    padding:  50px 20px;
+}
+header .logo{
+    float: left;
+}
+header .logo img{
+    width: 70px;
+    padding-right: 75px;
+}
+header .menu{
+    float: left;
+    position: relative;
+    top: 22px;
+}
+header .menu a{
+    text-decoration: none;
+    color: #898A8A;
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding: 25px 40px;
+
+}
+header .menu a:hover{
+    color: white;
+    font-weight: 400;
+}
+header .underline{
+    position: relative;
+    height: 2px;
+    width: 55%;
+    top: 87px;
+    left: -20px;
+    background: #1574d4; /* Old browsers */
+background: -moz-linear-gradient(45deg, #1574d4 0%, #3d3085 54%, #3b205d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #1574d4 0%,#3d3085 54%,#3b205d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #1574d4 0%,#3d3085 54%,#3b205d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
